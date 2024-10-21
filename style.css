@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+header {
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+header div {
+  width: 30vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+header div .firsButton {
+  background-color: red;
+  width: 15vw;
+  height: 7vh;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+header div button {
+  width: 8vw;
+  height: 7vh;
+  background-color: #181818;
+  color: white;
+  border: solid 1px white;
+  font-size: 20px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  height: 80vh;
+}
+
+.FirstBox {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.FirstBox div h2 {
+  color: white;
+}
+
+.secondBox {
+  display: flex;
+  justify-content: space-between;
+}
+.secondBox article {
+  width: 22vw;
+}
+.secondBox article img {
+  width: 20vw;
+}
+
+footer {
+  background-color: black;
+}
+footer div {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 40vw;
+  justify-content: space-between;
+  color: white;
+}/*# sourceMappingURL=style.css.map */
