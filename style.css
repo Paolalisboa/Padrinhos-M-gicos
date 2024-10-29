@@ -22,7 +22,7 @@ header div {
 }
 header div .firsButton {
   background-color: red;
-  width: 15vw;
+  width: 11vw;
   height: 7vh;
   border: none;
   color: white;
@@ -34,7 +34,8 @@ header div button {
   height: 7vh;
   background-color: #181818;
   color: white;
-  border: solid 1px white;
+  border: none;
+  border-radius: 10px;
   font-size: 20px;
 }
 
